@@ -1,0 +1,127 @@
+/*1 REM = 1EM = 16PX*/
+/* 16/1355px */
+
+/* ************ */
+/* PAGE 1 SECTION */
+/* ************ */
+
+/* *** */
+/*1374px =86em*/
+/* *** */
+@media(max-width:86em){
+    .firsth1{
+        font-size:3.8rem;
+    }
+    
+}
+/* *** */
+/*1330px =84em for the pg3 overflowing one*/
+/* *** */
+@media(max-width:84em){
+    .thecard2{
+        display:none;
+    }
+    .pg3wrapper{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* *** */
+/*1130 px =71em*/
+/* *** */
+
+@media(max-width:71em){
+    html{
+        font-size:57%;
+    }
+    /* .firsth1{
+        font-size:3.4rem;
+    } */
+    
+}
+/* *** */
+/*1044 px =65em*/
+/* *** */
+@media(max-width:65em){
+    html{
+        font-size:54%;
+    }
+    
+}
+
+
+/* *** */
+/*984 px =61em*/
+/* *** */
+@media(max-width:61.5em){
+    .customers{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+
+/* *** */
+/*974 px =61em*/
+/* *** */
+
+@media(max-width:61em){
+    .firsth1{
+        font-size:3.4rem;
+    }
+    
+}
+
+/* *** */
+/*914 px =51em*/
+/* *** */
+
+@media(max-width:58em){
+    .navlogo{
+        height:5rem;
+    }
+    
+}
+
+/* *** */
+/*815 px =51em (for nav too*/
+/* *** */
+
+@media(max-width:61em){
+    .firsth1{
+        font-size:3rem;
+    }
+    .headerclass{
+        display: block;
+        /* height:50rem;   here */
+        z-index:10;
+        position: absolute;
+        transition: 0.2s;
+    }
+    .navul{
+        display:none;
+    }
+    .navul li{
+        display:block;  /*here*/
+        text-align: center;
+        margin:5rem 0rem;
+    }
+    .navlogo{
+        align-self: start;
+    }
+    .menu{
+        display:block;
+    }
+    .shownavul{
+        display:block;
+    }
+    .heightheader{
+        height:50rem;
+        transition: 0.22s;
+    }
+    .pg4rightsidegrid{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .pg4lastimg{
+        display:none;
+    }
+}

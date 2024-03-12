@@ -1,0 +1,57 @@
+/*1 REM = 1EM = 16PX*/
+/* 16/1355px */
+
+/* ************ */
+/* PAGE 1 SECTION */
+/* ************ */
+
+/* *** */
+/*1374px =86em*/
+/* *** */
+@media(max-width:86em){
+    .firsth1{
+        font-size:3.8rem;
+    }
+    .customerphotos img{
+        height:10rem;
+    }
+}
+
+/* *** */
+/*1130 px =71em*/
+/* *** */
+
+@media(max-width:71em){
+    .firsth1{
+        font-size:3.4rem;
+    }
+    .customerphotos img{
+        height:8rem;
+    }
+}
+
+/* *** */
+/*974 px =61em*/
+/* *** */
+
+@media(max-width:61em){
+    .firsth1{
+        font-size:3.4rem;
+    }
+    .customerphotos img{
+        height:6rem;
+    }
+}
+
+/* *** */
+/*815 px =51em*/
+/* *** */
+
+@media(max-width:61em){
+    .firsth1{
+        font-size:3rem;
+    }
+    .customerphotos img{
+        height:6rem;
+    }
+}

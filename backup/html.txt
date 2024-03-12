@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Grill & Chill</title>
+</head>
+<body>
+   <header class="headerclass">
+    <img src="./images/Grill N Chill-logos_transparent.png" alt="Grill N Chill logo" class="navlogo"/>
+
+    <nav class="navbar">
+        <ul class="navul">
+            <li><a href="#home" class="normal">Home</a></li>
+            <li><a href="#chooseus" class="normal">About us</a></li>
+            <li><a href="#items" class="normal">Items</a></li>
+            <li><a href="#testimonials" class="normal">Testimonials</a></li>
+            <li><a href="#pricing" class="active">Get started</a></li>
+        </ul>
+    </nav>
+   </header>
+     <section class="pg1section" id="home">
+        <div class="pg1container">
+            <div class="pg1texts">   <!--1st column-->
+                <h1 class="firsth1">A healty meal with a special touch, Delivered at your Door Step.</h1>
+                <p class="firstp">The smart 365-days-per-year food subscription that will
+                    make you eat healthy again. Tailored to your personal tastes and
+                    nutritional
+                    needs. We have delivered 250,000+ meals last year!</p>
+                <button class="pg1btn pg1btn-1 pg1btnmargin"><a>Start Eating Well</a></button>
+                <button class="pg1btn pg1btn-2"><a href="#chooseus" class="chooseusanchor">Learn More &darr;</a></button>
+               <div class="customers">
+                     
+                        <div>
+                         <img src="./images/customer1.jpg" alt="customer image" class="customerphotos"/>
+                        </div>
+                        <div>
+                         <img src="./images/customer2.jpg" alt="customer image" class="customerphotos"/>
+                        </div>
+                        <div>
+                         <img src="./images/customer3.jpg" alt="customer image" class="customerphotos"/>
+                        </div>
+                        <div>
+                         <img src="./images/customer4.jpg" alt="customer image" class="customerphotos"/>
+                        </div>
+                     
+                    </div>
+                    <div>
+                         <h1 class="customertext1"><span class="colorcustomertext1">250,000+</span> Happy Customers.</h1>
+                    </div>
+            </div>
+            <div class="pg1img">  <!--2nd column-->
+                <img src="./images/Beautiful Women eating food.jpg" alt="women eating food in the restaurant" class="pg1insideimg"/>
+            </div>
+        </div>
+     </section>
+     <!--FEATURED IN SECTION-->
+     <section class="thefeatured">
+     <div class="featuredincontainer">
+        <div>
+        <h2 class="featuredinhead">As Featured In</h2>
+        </div>
+        <div class="featuredinimg">
+            <img src="./images/swiggy-logo.svg" alt="swiggy">
+            <img src="./images/forbes-3.svg" alt="forbes">
+            <img src="./images/zomato-2.svg" alt="zomato">
+        </div>
+     </div>
+     </section>
+     <!--FEATURED IN SECTION END-->
+     <!--PG 2 SECTION-->
+    <section class="pg2section" id="chooseus">
+        <div class="pg2theheading">
+        <h2 class="pg2mainheadingtext">Why Choose Us?</h2>
+        </div>
+        <div class="pg2container">
+            <!--PG 2 ROW 1 -->
+            <div class="pg2grid1img">
+                <img src="./images/freshfood (3).png" alt="fresh beef" class="pg2insidegridimg">
+            </div>
+            <div class="pg2grid1texts">
+            <h2 class="pg2numbers">01</h2>
+            <h5 class="pg2subhead">Discover the Essence of Flavor</h5>
+            <p class="pg2para">At the heart of our cooking philosophy lies an appreciation for the natural flavors of ingredients. We believe that great cooking begins with high-quality produce,carefully selected to showcase its inherent taste. Our chefs work their magic to coax out these flavors, creating dishes that are both familiar and delightfully surprising.
+            </p>
+            </div>
+
+            <!--PG 2 ROW 2 -->
+            <div class="pg2grid1texts">
+                <h2 class="pg2numbers">02</h2>
+                <h5 class="pg2subhead">Crafted with Care and Precision</h5>
+                <p class="pg2para">Every dish that leaves our kitchen is a masterpiece in its own right. Our culinary team combines their years of expertise with a dedication to precision, resulting in dishes that are not only visually stunning but also a joy to savor.
+                </p>
+            </div>
+            <div class="pg2grid2img">
+                <img src="./images/freshfood (2).png" alt="fresh beef" class="pg2insidegridimg">
+            </div>
+
+
+            <!--PG 2 ROW 3 -->
+            <div class="pg2grid1img">
+                <img src="./images/freshfood.png" alt="fresh beef" class="pg2insidegridimg">
+            </div>
+            <div class="pg2grid1texts">
+                <h2 class="pg2numbers">03</h2>
+            <h5 class="pg2subhead">Farm-to-Table Freshness</h5>
+            <p class="pg2para">We take pride in our partnerships with local farmers and suppliers who share our commitment to quality. By sourcing the freshest ingredients, we ensure that every dish embodies the goodness of the farm-to-table movement.
+            </p>
+            </div>
+        </div>
+    </section>
+     <!--PG 2 SECTION END-->
+
+      <!--PG 3 SECTION-->
+      <section class="pg3section" id="items">
+        <div class="pg3mainheadingtextcontainer">
+            <h1 class="pg3mainheadingtext">choose across <span class="colorcustomertext1"> 6000+  </span>recipes</h1>
+        </div>
+        <div class="pg3wrapper">
+            <!--PG3 CARD 1-->
+         <div class="pg3card">
+            <div class="pg3cardimg">
+                <img src="./images/italian pasta.jpg" alt="itallian pasta">
+            </div>
+            <div class="pg3cardtexts">
+                <h6><span class="pg3cardh6">VEGETARIAN</span></h6>
+                <h2 class="pg3cardh2">Itallian Pasta</h2>
+                <h5 class="pg3cardh5"><ion-icon name="flame-outline" class="pg3icon"></ion-icon> <span class="pg3cardhighlight">650 </span>Calories</h5>
+                <h5 class="pg3cardh5"><ion-icon name="restaurant-outline" class="pg3icon"></ion-icon> NutriScore &reg;<span class="pg3cardhighlight"> 83</span></h5>
+                <h5 class="pg3cardh5"><ion-icon name="star-outline" class="pg3icon"></ion-icon> <span class="pg3cardhighlight">4.5 </span>Rating(590)</h5>
+            </div>
+        </div>
+        <!--PG3 CARD 2-->
+        <div class="pg3card">
+            <div class="pg3cardimg">
+                <img src="./images/Dream cake.jpg" alt="dream cake">
+            </div>
+            <div class="pg3cardtexts">
+                <h6><span class="pg3cardh6">VEGETARIAN</span></h6>
+                <h2 class="pg3cardh2">Dream Cake</h2>
+                <h5 class="pg3cardh5"><ion-icon name="flame-outline" class="pg3icon"></ion-icon> <span class="pg3cardhighlight">800 </span>Calories</h5>
+                <h5 class="pg3cardh5"><ion-icon name="restaurant-outline" class="pg3icon"></ion-icon> NutriScore &reg;<span class="pg3cardhighlight"> 75</span></h5>
+                <h5 class="pg3cardh5"><ion-icon name="star-outline" class="pg3icon"></ion-icon> <span class="pg3cardhighlight">5.0 </span>Rating(590)</h5>
+            </div>
+        </div>
+        <!--PG3 CARD 3-->
+        <div class="pg3carddiff">
+            <h2 class="pg3cardh2diff">Works with any diet:</h2>
+            <div class="pg3workstextcontainer">
+                <h5 class="pg3cardh5diff"><ion-icon name="checkmark-outline" class="pg3icondiff"></ion-icon>Vegetarian</h5>
+                <h5 class="pg3cardh5diff"><ion-icon name="checkmark-outline" class="pg3icondiff"></ion-icon>Vegan</h5>
+                <h5 class="pg3cardh5diff"><ion-icon name="checkmark-outline" class="pg3icondiff"></ion-icon>Pescatarian</h5>
+                <h5 class="pg3cardh5diff"><ion-icon name="checkmark-outline" class="pg3icondiff"></ion-icon>Gluten-free</h5>
+                <h5 class="pg3cardh5diff"><ion-icon name="checkmark-outline" class="pg3icondiff"></ion-icon>Lactose-free</h5>
+                <h5 class="pg3cardh5diff"><ion-icon name="checkmark-outline" class="pg3icondiff"></ion-icon>Keto</h5>
+                <h5 class="pg3cardh5diff"><ion-icon name="checkmark-outline" class="pg3icondiff"></ion-icon>Paleo</h5>
+                <h5 class="pg3cardh5diff"><ion-icon name="checkmark-outline" class="pg3icondiff"></ion-icon>Low FODMAp</h5>
+                <h5 class="pg3cardh5diff"><ion-icon name="checkmark-outline" class="pg3icondiff"></ion-icon>Kid-friendly</h5>
+            </div>
+        </div>
+        </div>
+    <div class="pg3seemorecontainer">
+        <h6 class="pg3seemoretext">See all reciepes <ion-icon name="arrow-forward-outline"></ion-icon></h6>
+    </div>
+    </section>
+    
+    <!--PG3 SECTION END-->
+
+    <!--PG4 SECTION START-->
+    <section class="pg4section" id="testimonials">
+        <div class="pg4container">
+            <div class="pg4toptext">
+                <h6 class="pg4toph6">TESTIMONIALS</h6>
+                <h2 class="pg4toph2">What our customers say?</h2>
+                <div class="pg4cusomtergrid">
+                    <!--Customer 1 column 1-->
+                    <div class="pg4customer1">
+                        <div class="pg4customerimg">
+                              <img src="./images/correctimage1.jpg" rel="customer1 review"/>
+                        </div>
+                        <div class="pg4customertext">
+                             <h4 class="pg4insidecustomertexth4">Inexpensive, healthy and great-tasting meals. without even having to order manually! It feels truly magical.</h4>
+                             <h6 class="pg4insidecustomertexth6">— Hannah</h6>
+                        </div>
+                    </div>
+                    <!--Customer 1 END-->
+
+                    <div class="pg4customer1">
+                        <div class="pg4customerimg">
+                              <img src="./images/correctimage2.jpg" rel="customer1 review"/>
+                        </div>
+                        <div class="pg4customertext">
+                             <h4 class="pg4insidecustomertexth4">Grill & Chill is a life saver! I just started a company. so there's no time for cooking. I couldn't live without my daily meals now!
+                            </h4>
+                             <h6 class="pg4insidecustomertexth6">— Dave Bryson</h6>
+                        </div>
+                    </div>
+                    <!--Customer 2 END-->
+
+                    <div class="pg4customer1">
+                        <div class="pg4customerimg">
+                              <img src="./images/correctimage3.jpg" rel="customer1 review"/>
+                        </div>
+                        <div class="pg4customertext">
+                             <h4 class="pg4insidecustomertexth4">I got Grill & Chill for the whole family. and it frees up so much timel Plus, everything is organic and vegan and without plastic.
+                            </h4>
+                             <h6 class="pg4insidecustomertexth6">— Steve Miller</h6>
+                        </div>
+                    </div>
+                    <!--Customer 3 END-->
+
+                    <div class="pg4customer1">
+                        <div class="pg4customerimg">
+                              <img src="./images/correctimage4.jpg" rel="customer1 review"/>
+                        </div>
+                        <div class="pg4customertext">
+                             <h4 class="pg4insidecustomertexth4">The algorithm is crazy good, they choose the right meals for me every time. It's amazing not to worry about food anymore!
+                            </h4>
+                             <h6 class="pg4insidecustomertexth6">— Chika</h6>
+                        </div>
+                    </div>
+                    <!--Customer 4 END-->
+                </div>
+            </div>
+            <div class="pg4rightsidegrid">
+                <div class="theresaimg">
+                <img src="./images/rightgrid5.jpg" alt="restaurant gallery" class="pg4rightsideimage">
+                </div> 
+                <div class="theresaimg">
+                    <img src="./images/rightgrid6.jpg" alt="restaurant gallery" class="pg4rightsideimage">
+                </div>
+                <div class="theresaimg">
+                    <img src="./images/rightnew1.jpg" alt="restaurant gallery" class="pg4rightsideimage">
+                </div>
+                <div class="theresaimg">
+                    <img src="./images/gridrestaurant.jpg" alt="restaurant gallery" class="pg4rightsideimage">
+                </div>
+                <div class="theresaimg">
+                    <img src="./images/cooksnew.jpg" alt="restaurant gallery" class="pg4rightsideimage">
+                </div>
+                <div class="theresaimg">
+                    <img src="./images/rightgrid1.jpg" alt="restaurant gallery" class="pg4rightsideimage">
+                </div>
+                <div class="theresaimg">
+                    <img src="./images/rightgrid2.jpg" alt="restaurant gallery" class="pg4rightsideimage">
+                </div>
+                <div class="theresaimg">
+                    <img src="./images/rightgrid3.jpg" alt="restaurant gallery" class="pg4rightsideimage">
+                </div>
+                <div class="theresaimg">
+                    <img src="./images/rightgrid4.jpg" alt="restaurant gallery" class="pg4rightsideimage">
+                </div>
+        </div>
+    </section>
+
+    <!--PG4 SECTION END-->
+
+    <!--PG5 SECTION START-->
+     <section class="pg5section" id="pricing">
+         <h2 class="pg5mainheadingtext">Eat Well Withouth Breaking The Bank</h2>
+         <div class="pg5wrapper">
+             <!--card 1-->
+            <div class="pg5card1">
+                <h3 class="pg5starter">Starter</h3>
+                <h2 class="pg5price"><b>$450</b></h2>
+                <h6 class="pg5permonth">per month. That's just $15 per meal!</h6>
+                <div class="pg5insidecard">
+                    <h5 class="pg5cardh5"><ion-icon name="checkmark-outline" class="pg5icon"></ion-icon>1 meal per day</h5>
+                    <h5 class="pg5cardh5"><ion-icon name="checkmark-outline" class="pg5icon"></ion-icon>order from 11 am to 9 pm</h5>
+                    <h5 class="pg5cardh5"><ion-icon name="checkmark-outline" class="pg5icon"></ion-icon>Delivery is free</h5>
+                    <h5 class="pg5cardh5"><ion-icon name="close-outline" class="pg5icon"></ion-icon>Get access to latest recipes</h5>
+                </div>
+                <button class="pg5btn  pg5btnmargin"><a>Start Eating Well</a></button>
+            </div>
+            <!--card 1 end-->
+            <!--card 2-->
+            <div class="pg5card2">
+                <h3 class="pg6starter" style="text-decoration: underline;">Complete</h3>
+                <h2 class="pg6price"><b>$699</b></h2>
+                <h6 class="pg6permonth">per month. That's just $24 per meal!</h6>
+                <div class="pg6insidecard">
+                    <h5 class="pg6cardh5"><ion-icon name="checkmark-outline" class="pg6icon"></ion-icon><b>2</b> meal per day</h5>
+                    <h5 class="pg6cardh5"><ion-icon name="checkmark-outline" class="pg6icon"></ion-icon>order <b>24/7</b></h5>
+                    <h5 class="pg6cardh5"><ion-icon name="checkmark-outline" class="pg6icon"></ion-icon>Delivery is free</h5>
+                    <h5 class="pg6cardh5"><ion-icon name="checkmark-outline" class="pg6icon"></ion-icon>Get access to latest recipes</h5>
+                </div>
+                <button class="pg5btn  pg5btnmargin"><a>Start Eating Well</a></button>
+            </div>
+            <!--card 2 end-->
+        </div>
+        <div class="pg5footertext">
+            <h4 class="pg5footertexth4">prices include all applicable You Can cancel at any time, Both plans include the following:</h4>
+        </div>
+     </section>
+    
+     <!--PG5 SECTION END-->
+
+     <!--FOOTER-->
+    <section class="footers">
+        <div class="footerwrapper">
+
+            <!--Footer card 1-->
+            <div class="footercard1">
+                <ion-icon name="infinite-outline" class="footericon"></ion-icon>
+                <h5 class="footerh5">Never cook again!</h5>
+                <h4 class="footerh4">Our subscriptions cover 365 days per year, even including major holidays.
+                </h4>
+            </div>
+            <!--Footer card end-->
+
+            <!--Footer card 2-->
+            <div class="footercard1">
+                <ion-icon name="pizza-outline" class="footericon"></ion-icon>
+                <h5 class="footerh5">Local and organic</h5>
+                <h4 class="footerh4">Our cooks only use local. fresh, and organic products to prepare your meals.
+                </h4>
+            </div>
+            <!--Footer card end-->
+
+            <!--Footer card 3-->
+            <div class="footercard1">
+                <ion-icon name="leaf-outline" class="footericon"></ion-icon>
+                <h5 class="footerh5">No waste</h5>
+                <h4 class="footerh4">All our partners only use reusable containers to package all your meals.
+                </h4>
+            </div>
+            <!--Footer card end-->
+
+            <!--Footer card 4-->
+            <div class="footercard1">
+                <ion-icon name="pause-outline" class="footericon"></ion-icon>
+                <h5 class="footerh5">Pause anytime</h5>
+                <h4 class="footerh4">Going on vacation? Just pause your subscription, and we refund unused days.
+                </h4>
+            </div>
+            <!--Footer card end-->
+        </div>
+    </section>
+
+     <!--FOOTER END-->
+
+     <!--MAIN FOOTER START-->
+     <hr/>
+    <section class="mainfooter">
+        <div class="mainfooterwrap">
+            <div class="mainfooterlogoside">
+               <img src="./images/Grill N Chill-logos_transparent.png" alt="Grill n Chill"/>
+               <div class="mainfooterlogoscontainer">
+                <ion-icon name="logo-instagram" class="mainfooterlogo"></ion-icon>
+                <ion-icon name="logo-facebook"  class="mainfooterlogo"></ion-icon>
+                <ion-icon name="logo-twitter"  class="mainfooterlogo"></ion-icon>
+               </div>
+            <div class="mainfootertextbox1">
+                <h4 class="mainfooterh4">Copyright @ 2023 by Grill N Chill,<br/>Inc. All rights reserved.
+                </h4>
+            </div>
+        </div>
+        <!--MAIN FOOTER GRID 2-->
+         <div class="mainfootergrid2">
+            <h2 class="mainfooterh2">Contact Us</h2>
+            <h4 class="mainfooterh4diff">623 Harrison 2nd Floor,<br/>Noida, CA 94107</h4>
+            <h4 class="mainfooterh4diff">415-201-6370<br/>hello@grillnchill.com</h4>
+         </div>
+         <!--MAIN FOOTER GRID 3-->
+         <div class="mainfootergrid2">
+            <h2 class="mainfooterh2">Account</h2>
+            <h4 class="mainfooterh4diff">Create account</h4>
+            <h4 class="mainfooterh4diff">Sign in</h4>
+            <h4 class="mainfooterh4diff">ios app</h4>
+            <h4 class="mainfooterh4diff">Android app</h4>
+         </div>
+          <!--MAIN FOOTER GRID 4-->
+         <div class="mainfootergrid2">
+            <h2 class="mainfooterh2">Resources</h2>
+            <h4 class="mainfooterh4diff">Reciepe Directory</h4>
+            <h4 class="mainfooterh4diff">Help center</h4>
+            <h4 class="mainfooterh4diff">Privacy & terms</h4>
+         </div>
+         
+
+        </div>
+    </section>
+
+
+
+     <!--MAIN FOOTER END-->
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="js.js"></script>
+</body>
+</html>
